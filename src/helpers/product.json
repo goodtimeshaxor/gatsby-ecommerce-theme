@@ -23,93 +23,54 @@
         "description": "This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife. Once knitted, the garment is washed in Scottish spring water to make it beautifully soft."
     },
     {
-        "name": "Classic T-Shirt",
-        "price": 75,
-        "alt": "classic t-shirt 1",
-        "image": "/products/shirt1.jpg",
-        "tags": ["shirt", "men"]
+        "name": "Any Fully Custom Pokémon",
+        "price": 3,
+        "alt": "any custom pokemon",
+        "image": "/products/any.png",
+        "tags": ["custom", "pokemon"]
     },
     {
-        "name": "Classic T-Shirt",
-        "price": 75,
-        "alt": "classic t-shirt 2",
-        "image": "/products/shirt2.jpg",
-        "tags": ["shirt", "men"]
+        "name": "Any Standard Pokémon",
+        "price": 1,
+        "alt": "standard pokemon pokedex",
+        "image": "/products/any_pokedex.png",
+        "tags": ["standard", "pokemon", "pokedex"]
     },
     {
-        "name": "Classic T-Shirt",
-        "price": 75,
-        "alt": "classic t-shirt 3",
-        "image": "/products/shirt3.jpg",
-        "tags": ["shirt", "men"]
+        "name": "JP Ditto",
+        "price": 2,
+        "alt": "japanese ditto",
+        "image": "/products/ditto_jp.png",
+        "tags": ["ditto", "pokemon", "item", "nature"]
     },
     {
-        "name": "Relaxed-fit graphic T-shirt",
-        "price": 13.90,
-        "alt": "relaxed t shirt woman",
-        "image": "/products/woman1.jpeg",
-        "tags": ["woman"],
-        "meta": "+ 2 colors"
+        "name": "Custom Egg",
+        "price": 3,
+        "alt": "custom designed egg",
+        "image": "/products/egg.png",
+        "tags": ["custom", "egg"]
     },
     {
-        "name": "Relaxed-fit graphic T-shirt",
-        "price": 15.90,
-        "alt": "relaxed t shirt woman",
-        "image": "/products/woman2.jpeg",
-        "tags": ["woman"]
-    },    
-    {
-        "name": "Relaxed-fit graphic T-shirt",
-        "price": 13.90,
-        "alt": "relaxed t shirt woman",
-        "image": "/products/woman3.jpeg",
-        "tags": ["woman"],
-        "meta": "+ 2 colors"
+        "name": "Random Egg",
+        "price": 1,
+        "alt": "random egg",
+        "image": "/products/egg.png",
+        "tags": ["egg", "random"]
     },
     {
-        "name": "Relaxed-fit graphic T-shirt",
-        "price": 15.90,
-        "alt": "relaxed t shirt woman",
-        "image": "/products/woman4.jpeg",
-        "tags": ["woman"]
-    },
+        "name": "All Ancient Paradox + Koraidon 6IV",
+        "price": 8,
+        "alt": "all ancient paradox + koraidon",
+        "image": "/products/scarlet_paradox.png",
+        "tags": ["ancient", "6IV", "prebuilt", "paradox", "future"],
+        "meta": "shiny/non-shiny"
+    }, 
     {
-        "name": "Relaxed-fit graphic T-shirt",
-        "price": 15.90,
-        "alt": "relaxed t shirt woman",
-        "image": "/products/woman5.jpeg",
-        "tags": ["woman"],
-        "originalPrice": 31.50
-
-    },
-    {
-        "name": "Relaxed-fit graphic T-shirt",
-        "price": 21,
-        "alt": "relaxed t shirt woman",
-        "image": "/products/woman6.jpeg",
-        "tags": ["woman"]
-    },
-    {
-        "name": "Relaxed-fit graphic T-shirt",
-        "price": 15.90,
-        "alt": "relaxed t shirt woman",
-        "image": "/products/woman3.jpeg",
-        "tags": ["woman"]
-    },
-    {
-        "name": "Relaxed-fit graphic T-shirt",
-        "price": 15.90,
-        "alt": "relaxed t shirt woman",
-        "image": "/products/woman2.jpeg",
-        "tags": ["woman"],
-        "originalPrice": 31.50
-
-    },
-    {
-        "name": "Relaxed-fit graphic T-shirt",
-        "price": 21,
-        "alt": "relaxed t shirt woman",
-        "image": "/products/woman1.jpeg",
-        "tags": ["woman"]
+        "name": "All Future Paradox + Miraidon 6IV",
+        "price": 8,
+        "alt": "all future paradox + miraidon",
+        "image": "/products/future_paradox.png",
+        "tags": ["ancient", "6IV", "prebuilt", "paradox", "future"],
+        "meta": "shiny/non-shiny"
     }
   ]
