@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Sydney Ecommerce Theme`,
-    siteUrl: `https://jamm.matter.design`,
+    title: `MewGEN Pokémon Genning Shop`,
+    siteUrl: `https://mewgen.io`,
   },
   plugins: [
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Sydney Ecommerce Theme`,
-        short_name: `Sydney`,
+        name: `MewGEN.io`,
+        short_name: `MewGEN`,
         start_url: `/`,
         background_color: `#000000`,
         theme_color: `#ffffff`,
