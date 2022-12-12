@@ -80,9 +80,9 @@ const Header = (prop) => {
 
   return (
     <div className={styles.root}>
-      <div className={styles.headerMessageContainer}>
+      {/* <div className={styles.headerMessageContainer}>
         <span>{bannerMessage}</span>
-      </div>
+      </div> */}
       <Container size={'large'} spacing={'min'}>
         {/* header container */}
         <div className={styles.header}>
@@ -93,7 +93,7 @@ const Header = (prop) => {
                 setShowMenu(false);
               }}
             >
-              {Config.headerLinks.map((navObject) => (
+              {/* {Config.headerLinks.map((navObject) => (
                 <Link
                   key={navObject.menuLink}
                   onMouseEnter={() => handleHover(navObject)}
@@ -104,7 +104,7 @@ const Header = (prop) => {
                 >
                   {navObject.menuLabel}
                 </Link>
-              ))}
+              ))} */}
             </nav>
           </div>
           <div
@@ -119,7 +119,7 @@ const Header = (prop) => {
           </div>
           <Brand />
           <div className={styles.actionContainers}>
-            <button
+            {/* <button
               aria-label="Search"
               className={`${styles.iconButton} ${styles.iconContainer}`}
               onClick={() => {
@@ -154,7 +154,7 @@ const Header = (prop) => {
               <div className={styles.bagNotification}>
                 <span>1</span>
               </div>
-            </button>
+            </button> */}
             <div className={styles.notificationContainer}>
               <AddNotification openCart={() => setShowMiniCart(true)} />
             </div>
