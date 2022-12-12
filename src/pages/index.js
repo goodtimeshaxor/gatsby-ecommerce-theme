@@ -11,14 +11,15 @@ import ProductCardGrid from '../components/ProductCardGrid';
 import Quote from '../components/Quote';
 import Title from '../components/Title';
 
-import { generateMockBlogData, generateMockProductData } from '../helpers/mock';
+import { getProductList } from '../helpers/mock';
 
 import * as styles from './index.module.css';
 import { Link, navigate } from 'gatsby';
 
 const IndexPage = () => {
-  const newArrivals = generateMockProductData(3, 'shirt');
-  const blogData = generateMockBlogData(3);
+//   const newArrivals = generateMockProductData(3, 'shirt');
+//   const blogData = generateMockBlogData(3);
+  const products = getProductList();
 
   const goToShop = () => {
     navigate('/shop');
@@ -26,18 +27,26 @@ const IndexPage = () => {
 
   return (
     <Layout disablePaddingBottom>
+
+      <div className={styles.root}>
+        {products.map(product => 
+          <div clasName={styles.messageContainer}>
+            <a href={`mailto:Me@lunarenigma.com?subject=Gen 9 Pokémon&body=I'm interested in ${product.name}. Please contact me with more information!`}><img src={product.image}></img></a>
+          </div>
+        )}
+      </div>
       {/* Hero Container */}
-      <Hero
+      {/* <Hero
         maxWidth={'500px'}
         image={'/banner1.png'}
         title={'Essentials for a cold winter'}
         subtitle={'Discover Autumn Winter 2021'}
         ctaText={'shop now'}
         ctaAction={goToShop}
-      />
+      /> */}
 
       {/* Message Container */}
-      <div className={styles.messageContainer}>
+      {/* <div className={styles.messageContainer}>
         <p>
           This is a demonstration of the Sydney theme for verse by{' '}
           <span className={styles.gold}>matter design.</span>
@@ -46,18 +55,18 @@ const IndexPage = () => {
           wear by <span className={styles.gold}>sunspel</span> and{' '}
           <span className={styles.gold}>scotch&soda</span>
         </p>
-      </div>
+      </div> */}
 
       {/* Collection Container */}
-      <div className={styles.collectionContainer}>
+      {/* <div className={styles.collectionContainer}>
         <Container size={'large'}>
           <Title name={'New Collection'} />
           <ProductCollectionGrid />
         </Container>
-      </div>
+      </div> */}
 
       {/* New Arrivals */}
-      <div className={styles.newArrivalsContainer}>
+      {/* <div className={styles.newArrivalsContainer}>
         <Container>
           <Title name={'New Arrivals'} link={'/shop'} textLink={'view all'} />
           <ProductCardGrid
@@ -68,10 +77,10 @@ const IndexPage = () => {
             data={newArrivals}
           />
         </Container>
-      </div>
+      </div> */}
 
       {/* Highlight  */}
-      <div className={styles.highlightContainer}>
+      {/* <div className={styles.highlightContainer}>
         <Container size={'large'} fullMobile>
           <Highlight
             image={'/highlight.png'}
@@ -84,36 +93,36 @@ const IndexPage = () => {
             link={'/shop'}
           />
         </Container>
-      </div>
+      </div> */}
 
       {/* Promotion */}
-      <div className={styles.promotionContainer}>
+      {/* <div className={styles.promotionContainer}>
         <Hero image={'/banner2.png'} title={`-50% off \n All Essentials`} />
         <div className={styles.linkContainers}>
           <Link to={'/shop'}>WOMAN</Link>
           <Link to={'/shop'}>MAN</Link>
         </div>
-      </div>
+      </div> */}
 
       {/* Quote */}
-      <Quote
+      {/* <Quote
         bgColor={'var(--standard-light-grey)'}
         title={'about Sydney'}
         quote={
           '“We believe in two things: the pursuit of quality in everything we do, and looking after one another. Everything else should take care of itself.”'
         }
-      />
+      /> */}
 
       {/* Blog Grid */}
-      <div className={styles.blogsContainer}>
+      {/* <div className={styles.blogsContainer}>
         <Container size={'large'}>
           <Title name={'Journal'} subtitle={'Notes on life and style'} />
           <BlogPreviewGrid data={blogData} />
         </Container>
-      </div>
+      </div> */}
 
       {/* Promotion */}
-      <div className={styles.sustainableContainer}>
+      {/* <div className={styles.sustainableContainer}>
         <Hero
           image={'/banner3.png'}
           title={'We are Sustainable'}
@@ -124,10 +133,10 @@ const IndexPage = () => {
           maxWidth={'660px'}
           ctaStyle={styles.ctaCustomButton}
         />
-      </div>
+      </div> */}
 
       {/* Social Media */}
-      <div className={styles.socialContainer}>
+      {/* <div className={styles.socialContainer}>
         <Title
           name={'Styled by You'}
           subtitle={'Tag @sydney to be featured.'}
@@ -138,8 +147,8 @@ const IndexPage = () => {
           <img src={`/social/socialMedia3.png`} alt={'social media 3'} />
           <img src={`/social/socialMedia4.png`} alt={'social media 4'} />
         </div>
-      </div>
-      <AttributeGrid />
+      </div> */}
+      {/* <AttributeGrid /> */}
     </Layout>
   );
 };

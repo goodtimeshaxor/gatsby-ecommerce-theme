@@ -13,4 +13,8 @@ function generateMockBlogData(count) {
   return blogJson.slice(0, count);
 }
 
-export { generateMockProductData, generateMockBlogData };
+function getProductList() {
+    return productJson;
+}
+
+export { generateMockProductData, generateMockBlogData, getProductList };

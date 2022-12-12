@@ -41,20 +41,18 @@ const Footer = (prop) => {
 
   return (
     <div className={styles.root}>
-      <Container size={'large'} spacing={'min'}>
+      {/* <Container size={'large'} spacing={'min'}>
         <div className={styles.content}>
           <div className={styles.contentTop}>
             {Config.footerLinks.map((linkCollection, indexLink) => {
               return (
                 <div className={styles.footerLinkContainer} key={indexLink}>
-                  {/* for web version */}
                   <div className={styles.footerLinks}>
                     <span className={styles.linkTitle}>
                       {linkCollection.subTitle}
                     </span>
                     {renderLinks(linkCollection)}
                   </div>
-                  {/* for mobile version */}
                   <div className={styles.mobileFooterLinks}>
                     <Accordion
                       customStyle={styles}
@@ -179,7 +177,7 @@ const Footer = (prop) => {
             </div>
           </div>
         </Container>
-      </div>
+      </div> */}
     </div>
   );
 };

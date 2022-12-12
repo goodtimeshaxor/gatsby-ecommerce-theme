@@ -24,12 +24,6 @@ const AboutPage = (props) => {
     <Layout disablePaddingBottom>
       <div className={styles.root}>
         {/* Hero Container */}
-        <Hero
-          maxWidth={'900px'}
-          image={'/about.png'}
-          title={`Sydney \n A British brand since 1860`}
-        />
-
         <div className={styles.navContainer}>
           <ThemeLink onClick={() => handleScroll(historyRef)} to={'#history'}>
             History
