@@ -44,7 +44,7 @@ const IndexPage = () => {
                 {products.map(product =>
                     <Grid key={product.name} item xs={9} sm={9} md={5} lg={4} xl={3}>
                         <Card>
-                            <CardMedia component="img" image={product.image} alt={product.alt} styles.cardContainer />
+                            <CardMedia component="img" image={product.image} alt={product.alt} />
                             <CardContent className={styles.alignLeft}>
                                 <Typography component="div" variant="h5" gutterBottom className={styles.productTitle}>{product.name}</Typography>
 
