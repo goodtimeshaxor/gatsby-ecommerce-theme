@@ -127,3 +127,7 @@
         margin: 88px 0px 40px 0px;
     }
 }
+
+.cardContainer {
+    height: 320px;
+}
