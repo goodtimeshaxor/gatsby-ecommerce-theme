@@ -18,7 +18,7 @@ const Header = (prop) => {
         <Grid item xs={12} sm={12} md={12} lg={3} xl={3}>
             <a href="https://discord.gg/rH5f9Q2TjA"><img src="socials/discord_icon.png" height="60" width="75"></img></a>
             <a href="https://twitter.com/mewgenio"><img src="socials/twitter.png" height="60" width="70"></img></a>
-            <a href="https://www.facebook.com/groups/mewgen"><img src="socials/facebook.png" height="60" width="60""></img></a>
+            <a href="https://www.facebook.com/groups/mewgen"><img src="socials/facebook.png" height="60" width="60"></img></a>
         </Grid>
     </Grid>
   );
