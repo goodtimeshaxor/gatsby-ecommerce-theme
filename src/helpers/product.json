@@ -4,7 +4,7 @@
         "price": 3,
         "alt": "any custom pokemon",
         "image": "/products/any.png",
-        "description": "Description of the item<br>can be multiple lines<br>line<br>line<br>line<br>line<br>No email links on items or images",
+        "description": "Design your own custom Pokémon. One Pokémon custom designed by you.<br><br>The stats you can choose include:<br>, IV Spread, EV Spread, Level, Gender, Shiny / Non-Shiny, Tera Type, Nature, Move Set, Ability, Held Item, Nickname, Trainer ID + Trainer SID (if you know it) OT, + OT Gender",
         "tags": ["custom", "pokemon"]
     },
     {
