@@ -19,15 +19,15 @@
         "name": "JP Ditto",
         "price": 2,
         "alt": "japanese ditto",
-        "image": "/products/ditto_jp.png",
+        "image": "/products/ditto.png",
         "description": "Any nature + any held item",
         "tags": ["ditto", "pokemon", "item", "nature"]
     },
     {
         "name": "JP Ditto - ALL 25 Natures",
-        "price": 2,
+        "price": 18,
         "alt": "japanese ditto",
-        "image": "/products/ditto.png",
+        "image": "/products/dittos.png",
         "description": "One of each of the 25 Natures. Choose 25 items in multiples of 5, including Destiny Knots, Gold Bottle Caps, Ability Patches, Lucky Eggs, and Everstones",
         "tags": ["ditto", "pokemon", "item", "nature"]
     },
