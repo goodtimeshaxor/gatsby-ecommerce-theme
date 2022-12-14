@@ -24,6 +24,14 @@
         "tags": ["ditto", "pokemon", "item", "nature"]
     },
     {
+        "name": "JP Ditto - ALL 25 Natures",
+        "price": 2,
+        "alt": "japanese ditto",
+        "image": "/products/ditto.png",
+        "description": "One of each of the 25 Natures. Choose 25 items in multiples of 5, including Destiny Knots, Gold Bottle Caps, Ability Patches, Lucky Eggs, and Everstones",
+        "tags": ["ditto", "pokemon", "item", "nature"]
+    },
+    {
         "name": "Custom Egg",
         "price": 3,
         "alt": "custom designed egg",
@@ -44,7 +52,7 @@
         "price": 8,
         "alt": "all ancient paradox + koraidon",
         "image": "/products/scarlet_paradox.png",
-        "description": "All 6IV, LVL 52-72. Pick shiny or non. <b>Includes:</b> Great Tusk, Brute Bonnet, Sandy Shocks, Scream Tail, Flutter Mane, Slither Wing, Roaring Moon, Koraidon, 8 Master Balls",
+        "description": "All 6IV, LVL 52-72. Pick shiny or non.<br><br>Includes: Great Tusk, Brute Bonnet, Sandy Shocks, Scream Tail, Flutter Mane, Slither Wing, Roaring Moon, Koraidon, 8 Master Balls",
         "tags": ["ancient", "6IV", "prebuilt", "paradox", "future"],
         "meta": "shiny/non-shiny"
     }, 
@@ -53,7 +61,7 @@
         "price": 8,
         "alt": "all future paradox + miraidon",
         "image": "/products/violet_paradox.png",
-        "description": "All 6IV, LVL 52-72. Pick shiny or non. <b>Includes:</b> Iron Treads, Iron Moth, Iron Hands, Iron Jugulis, Iron Thorns, Iron Bundle, Iron Valiant, Miraidon, 8 Master Balls",
+        "description": "All 6IV, LVL 52-72. Pick shiny or non.<br><br>Includes: Iron Treads, Iron Moth, Iron Hands, Iron Jugulis, Iron Thorns, Iron Bundle, Iron Valiant, Miraidon, 8 Master Balls",
         "tags": ["ancient", "6IV", "prebuilt", "paradox", "future"],
         "meta": "shiny/non-shiny"
     }
