@@ -37,7 +37,7 @@ const IndexPage = () => {
                 </Grid>
 
                 {products.map(product =>
-                    <Grid key={product.name} item xs={9} sm={9} md={5} lg={5} xl={4}>
+                    <Grid key={product.name} item xs={9} sm={9} md={5} lg={4} xl={3}>
                         <Card>
                             <CardHeader title={product.name} subheader={`$${product.price}`} />
                             <CardMedia component="img" image={product.image} alt={product.alt} />
