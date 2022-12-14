@@ -1,156 +1,65 @@
 import * as React from 'react';
 
-import AttributeGrid from '../components/AttributeGrid';
-import Container from '../components/Container';
-import Hero from '../components/Hero';
-import BlogPreviewGrid from '../components/BlogPreviewGrid';
-import Highlight from '../components/Highlight';
 import Layout from '../components/Layout/Layout';
-import ProductCollectionGrid from '../components/ProductCollectionGrid';
-import ProductCardGrid from '../components/ProductCardGrid';
-import Quote from '../components/Quote';
-import Title from '../components/Title';
 
 import { getProductList } from '../helpers/mock';
 
 import * as styles from './index.module.css';
-import { Link, navigate } from 'gatsby';
+import { navigate } from 'gatsby';
+import { Card, CardContent, CardHeader, CardMedia, Grid, Typography } from '@mui/material';
 
 const IndexPage = () => {
-//   const newArrivals = generateMockProductData(3, 'shirt');
-//   const blogData = generateMockBlogData(3);
-  const products = getProductList();
+    const products = getProductList();
 
-  const goToShop = () => {
-    navigate('/shop');
-  };
+    const goToShop = () => {
+        navigate('/shop');
+    };
 
-  return (
-    <Layout disablePaddingBottom>
+    return (
+        <Layout>
+            <Grid justifyContent="center" container spacing={2} className={styles.root}>
+                    <Grid item xs={12}>
+                        <img width="292" height="40" src="titles/how_to_order.png"></img>
+                    </Grid>
 
-      <div className={styles.root}>
-        {products.map(product => 
-          <div clasName={styles.messageContainer}>
-            <a href={`mailto:Me@lunarenigma.com?subject=Gen 9 Pokémon&body=I'm interested in ${product.name}. Please contact me with more information!`}><img src={product.image}></img></a>
-          </div>
-        )}
-      </div>
-      {/* Hero Container */}
-      {/* <Hero
-        maxWidth={'500px'}
-        image={'/banner1.png'}
-        title={'Essentials for a cold winter'}
-        subtitle={'Discover Autumn Winter 2021'}
-        ctaText={'shop now'}
-        ctaAction={goToShop}
-      /> */}
+                    <Grid item xs={12}>
+                        <p className={styles.alignLeft}>Text box here. I’ll add content at a later time. Text to expand downwards and push content down. Wrap text when nearing edge.</p>
+                        <br />
+                        <p className={styles.alignLeft}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </Grid>
 
-      {/* Message Container */}
-      {/* <div className={styles.messageContainer}>
-        <p>
-          This is a demonstration of the Sydney theme for verse by{' '}
-          <span className={styles.gold}>matter design.</span>
-        </p>
-        <p>
-          wear by <span className={styles.gold}>sunspel</span> and{' '}
-          <span className={styles.gold}>scotch&soda</span>
-        </p>
-      </div> */}
+                <Grid container spacing={2} className={styles.padTop}>
+                    <Grid item xs={3} sm={3} md={4} lg={5} xl={5} />
+                    <Grid item xs={6} sm={6} md={4} lg={2} xl={2}>
+                        <img width="178" height="40" src="titles/all_items.png"></img>
+                    </Grid>
+                    <Grid item xs={3} sm={3} md={4} lg={5} xl={5} />
+                </Grid>
 
-      {/* Collection Container */}
-      {/* <div className={styles.collectionContainer}>
-        <Container size={'large'}>
-          <Title name={'New Collection'} />
-          <ProductCollectionGrid />
-        </Container>
-      </div> */}
+                {products.map(product =>
+                    <Grid key={product.name} item xs={9} sm={9} md={5} lg={4} xl={3}>
+                        <Card>
+                            <CardMedia component="img" image={product.image} alt={product.alt} />
+                            <CardContent className={styles.alignLeft}>
+                                <Typography component="div" variant="h5" gutterBottom className={styles.productTitle}>{product.name}</Typography>
 
-      {/* New Arrivals */}
-      {/* <div className={styles.newArrivalsContainer}>
-        <Container>
-          <Title name={'New Arrivals'} link={'/shop'} textLink={'view all'} />
-          <ProductCardGrid
-            spacing={true}
-            showSlider
-            height={480}
-            columns={3}
-            data={newArrivals}
-          />
-        </Container>
-      </div> */}
+                                <Typography>${product.price}</Typography>
 
-      {/* Highlight  */}
-      {/* <div className={styles.highlightContainer}>
-        <Container size={'large'} fullMobile>
-          <Highlight
-            image={'/highlight.png'}
-            altImage={'highlight image'}
-            miniImage={'/highlightmin.png'}
-            miniImageAlt={'mini highlight image'}
-            title={'Luxury Knitwear'}
-            description={`This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife`}
-            textLink={'shop now'}
-            link={'/shop'}
-          />
-        </Container>
-      </div> */}
+                                <br/>
 
-      {/* Promotion */}
-      {/* <div className={styles.promotionContainer}>
-        <Hero image={'/banner2.png'} title={`-50% off \n All Essentials`} />
-        <div className={styles.linkContainers}>
-          <Link to={'/shop'}>WOMAN</Link>
-          <Link to={'/shop'}>MAN</Link>
-        </div>
-      </div> */}
-
-      {/* Quote */}
-      {/* <Quote
-        bgColor={'var(--standard-light-grey)'}
-        title={'about Sydney'}
-        quote={
-          '“We believe in two things: the pursuit of quality in everything we do, and looking after one another. Everything else should take care of itself.”'
-        }
-      /> */}
-
-      {/* Blog Grid */}
-      {/* <div className={styles.blogsContainer}>
-        <Container size={'large'}>
-          <Title name={'Journal'} subtitle={'Notes on life and style'} />
-          <BlogPreviewGrid data={blogData} />
-        </Container>
-      </div> */}
-
-      {/* Promotion */}
-      {/* <div className={styles.sustainableContainer}>
-        <Hero
-          image={'/banner3.png'}
-          title={'We are Sustainable'}
-          subtitle={
-            'From caring for our land to supporting our people, discover the steps we’re taking to do more for the world around us.'
-          }
-          ctaText={'read more'}
-          maxWidth={'660px'}
-          ctaStyle={styles.ctaCustomButton}
-        />
-      </div> */}
-
-      {/* Social Media */}
-      {/* <div className={styles.socialContainer}>
-        <Title
-          name={'Styled by You'}
-          subtitle={'Tag @sydney to be featured.'}
-        />
-        <div className={styles.socialContentGrid}>
-          <img src={`/social/socialMedia1.png`} alt={'social media 1'} />
-          <img src={`/social/socialMedia2.png`} alt={'social media 2'} />
-          <img src={`/social/socialMedia3.png`} alt={'social media 3'} />
-          <img src={`/social/socialMedia4.png`} alt={'social media 4'} />
-        </div>
-      </div> */}
-      {/* <AttributeGrid /> */}
-    </Layout>
-  );
+                                {product.description?.split("<br>").map((x, i) =>
+                                    <Typography variant="body2" color="text.secondary" key={i}>
+                                        {x}
+                                        <br />
+                                    </Typography>
+                                )}
+                            </CardContent>
+                        </Card>
+                    </Grid>
+                )}
+            </Grid>
+        </Layout>
+    );
 };
 
 export default IndexPage;
