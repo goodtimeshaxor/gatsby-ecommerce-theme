@@ -44,7 +44,7 @@
         "price": 8,
         "alt": "all ancient paradox + koraidon",
         "image": "/products/scarlet_paradox.png",
-        "description": "<b>All 6IV, LVL 52-72. Pick shiny or non. Includes:<b> Great Tusk, Brute Bonnet, Sandy Shocks, Scream Tail, Flutter Mane, Slither Wing, Roaring Moon, Koraidon, 8 Master Balls",
+        "description": "All 6IV, LVL 52-72. Pick shiny or non. <b>Includes:</b> Great Tusk, Brute Bonnet, Sandy Shocks, Scream Tail, Flutter Mane, Slither Wing, Roaring Moon, Koraidon, 8 Master Balls",
         "tags": ["ancient", "6IV", "prebuilt", "paradox", "future"],
         "meta": "shiny/non-shiny"
     }, 
@@ -53,7 +53,7 @@
         "price": 8,
         "alt": "all future paradox + miraidon",
         "image": "/products/violet_paradox.png",
-        "description": "All 6IV, LVL 52-72. Pick shiny or non. Includes:<b> Iron Treads, Iron Moth, Iron Hands, Iron Jugulis, Iron Thorns, Iron Bundle, Iron Valiant, Miraidon, 8 Master Balls",
+        "description": "All 6IV, LVL 52-72. Pick shiny or non. <b>Includes:</b> Iron Treads, Iron Moth, Iron Hands, Iron Jugulis, Iron Thorns, Iron Bundle, Iron Valiant, Miraidon, 8 Master Balls",
         "tags": ["ancient", "6IV", "prebuilt", "paradox", "future"],
         "meta": "shiny/non-shiny"
     }
