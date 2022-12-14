@@ -4,6 +4,7 @@
         "price": 3,
         "alt": "any custom pokemon",
         "image": "/products/any.png",
+        "description": "Description of the item<br>can be multiple lines<br>line<br>line<br>line<br>line<br>No email links on items or images",
         "tags": ["custom", "pokemon"]
     },
     {
@@ -11,6 +12,7 @@
         "price": 1,
         "alt": "standard pokemon pokedex",
         "image": "/products/any_pokedex.png",
+        "description": "Description of the item<br>can be multiple lines<br>line<br>line<br>line<br>line<br>No email links on items or images",
         "tags": ["standard", "pokemon", "pokedex"]
     },
     {
@@ -18,6 +20,7 @@
         "price": 2,
         "alt": "japanese ditto",
         "image": "/products/ditto_jp.png",
+        "description": "Description of the item<br>can be multiple lines<br>line<br>line<br>line<br>line<br>No email links on items or images",
         "tags": ["ditto", "pokemon", "item", "nature"]
     },
     {
@@ -25,6 +28,7 @@
         "price": 3,
         "alt": "custom designed egg",
         "image": "/products/egg.png",
+        "description": "Description of the item<br>can be multiple lines<br>line<br>line<br>line<br>line<br>No email links on items or images",
         "tags": ["custom", "egg"]
     },
     {
@@ -32,6 +36,7 @@
         "price": 1,
         "alt": "random egg",
         "image": "/products/egg.png",
+        "description": "Description of the item<br>can be multiple lines<br>line<br>line<br>line<br>line<br>No email links on items or images",
         "tags": ["egg", "random"]
     },
     {
@@ -39,6 +44,7 @@
         "price": 8,
         "alt": "all ancient paradox + koraidon",
         "image": "/products/scarlet_paradox.png",
+        "description": "Description of the item<br>can be multiple lines<br>line<br>line<br>line<br>line<br>No email links on items or images",
         "tags": ["ancient", "6IV", "prebuilt", "paradox", "future"],
         "meta": "shiny/non-shiny"
     }, 
@@ -47,6 +53,7 @@
         "price": 8,
         "alt": "all future paradox + miraidon",
         "image": "/products/violet_paradox.png",
+        "description": "Description of the item<br>can be multiple lines<br>line<br>line<br>line<br>line<br>No email links on items or images",
         "tags": ["ancient", "6IV", "prebuilt", "paradox", "future"],
         "meta": "shiny/non-shiny"
     }

@@ -17,6 +17,9 @@
     "plop": "plop"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/material": "^5.11.0",
     "@netlify/plugin-gatsby": "^3.4.8",
     "cypress": "^10.0.3",
     "gatsby": "^4.5.4",
