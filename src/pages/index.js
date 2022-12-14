@@ -23,9 +23,13 @@ const IndexPage = () => {
                     </Grid>
 
                     <Grid item xs={12}>
-                        <p className={styles.alignLeft}>Text box here. I’ll add content at a later time. Text to expand downwards and push content down. Wrap text when nearing edge.</p>
+                        <p className={styles.alignLeft}>First, make a list of all the products you\' like order. Confirm your selection and order total with a MewGEN admin by contacting one via our social links above.</p>
                         <br />
-                        <p className={styles.alignLeft}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <p className={styles.alignLeft}>We currently accept the following payment methods:</p>
+                        <p className={styles.alignLeft}>Paypal F&F: pay@mewgen.io</p>
+                        <p className={styles.alignLeft}>Paypal G&S ($10 minimum): pay@mewgen.io</p>
+                        <p className={styles.alignLeft}>Cash App: $mewgenio</p>
+                        <p className={styles.alignLeft}>Apple Pay: Contact MewGEN admin for details </p>
                     </Grid>
 
                 <Grid container spacing={2} className={styles.padTop}>
