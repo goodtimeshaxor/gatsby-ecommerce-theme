@@ -26,10 +26,11 @@ const IndexPage = () => {
                         <p className={styles.alignLeft}>First, make a list of all the products you'd like order. Confirm your selection and order total with a MewGEN admin by contacting one via our social links above.</p>
                         <br />
                         <p className={styles.alignLeft}>We currently accept the following payment methods:</p>
-                        <p className={styles.alignLeft}>Paypal F&F: pay@mewgen.io</p>
-                        <p className={styles.alignLeft}>Paypal G&S ($10 minimum): pay@mewgen.io</p>
-                        <p className={styles.alignLeft}>Cash App: $mewgenio</p>
-                        <p className={styles.alignLeft}>Apple Pay: Contact MewGEN admin for details </p>
+                        <br />
+                        <p className={styles.alignLeft}><b>Paypal F&F:</b> pay@mewgen.io</p>
+                        <p className={styles.alignLeft}><b>Paypal G&S ($10 minimum):</b> pay@mewgen.io</p>
+                        <p className={styles.alignLeft}><b>Cash App:</b> $mewgenio</p>
+                        <p className={styles.alignLeft}><b>Apple Pay:</b> Contact MewGEN admin for details </p>
                     </Grid>
 
                 <Grid container spacing={2} className={styles.padTop}>
