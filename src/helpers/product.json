@@ -3,8 +3,8 @@
         "name": "Any Fully Custom Pokémon",
         "price": 3,
         "alt": "any custom pokemon",
-        "image": "/products/any.png",
-        "description": "Design your own custom Pokémon.<br><br>The stats you can choose include:<br>IV Spread, EV Spread, Level, Gender, Shiny / Non-Shiny, Tera Type, Nature, Move Set, Ability, Held Item, Nickname, Trainer ID + Trainer SID (if you know it) OT, + OT Gender",
+        "image": "/products/any_custom.png",
+        "description": "Design your own custom Pokémon.<br><br>The stats you can choose include:<br>IV/EV spread, LVL, gender, shiny/non, tera type, nature, move set, ability, held item, ball, nickname, TID, SID, OT, & OT gender",
         "tags": ["custom", "pokemon"]
     },
     {
@@ -12,7 +12,7 @@
         "price": 1,
         "alt": "standard pokemon pokedex",
         "image": "/products/any_pokedex.png",
-        "description": "Useful for obtaining your Shiny Charm by filling your Pokédex with all 400 Pokémon. These Pokémon do not come with any customizable options.",
+        "description": "Useful for obtaining a Shiny Charm. Easily fill your Pokédex with all 400 Pokémom.<br><br>These Pokémon do not come with any customizable options.",
         "tags": ["standard", "pokemon", "pokedex"]
     },
     {
@@ -20,7 +20,7 @@
         "price": 2,
         "alt": "japanese ditto",
         "image": "/products/ditto.png",
-        "description": "Any nature + any held item",
+        "description": "Japan Region<br>LVL 100<br>Shiny<br><br>Choose any nature + any held item",
         "tags": ["ditto", "pokemon", "item", "nature"]
     },
     {
@@ -28,7 +28,7 @@
         "price": 18,
         "alt": "japanese ditto",
         "image": "/products/dittos.png",
-        "description": "One of each of the 25 Natures. Choose 25 items in multiples of 5, including Destiny Knots, Gold Bottle Caps, Ability Patches, Lucky Eggs, and Everstones",
+        "description": "Japan Region, LVL 100, Shiny<br><br>One of each of the 25 Natures. Choose 25 items in multiples of 5; including Destiny Knots, Gold Bottle Caps, Ability Patches, Lucky Eggs, and Everstones",
         "tags": ["ditto", "pokemon", "item", "nature"]
     },
     {
@@ -52,7 +52,7 @@
         "price": 8,
         "alt": "all ancient paradox + koraidon",
         "image": "/products/scarlet_paradox.png",
-        "description": "All 6IV, LVL 52-72. Pick shiny or non.<br><br>Includes: Great Tusk, Brute Bonnet, Sandy Shocks, Scream Tail, Flutter Mane, Slither Wing, Roaring Moon, Koraidon, 8 Master Balls",
+        "description": "All 6IV, LVL 52-72. Pick shiny or non.<br><br>Includes: Great Tusk, Brute Bonnet, Sandy Shocks, Scream Tail, Flutter Mane, Slither Wing, Roaring Moon, Koraidon, 8 master balls",
         "tags": ["ancient", "6IV", "prebuilt", "paradox", "future"],
         "meta": "shiny/non-shiny"
     }, 
@@ -61,7 +61,7 @@
         "price": 8,
         "alt": "all future paradox + miraidon",
         "image": "/products/violet_paradox.png",
-        "description": "All 6IV, LVL 52-72. Pick shiny or non.<br><br>Includes: Iron Treads, Iron Moth, Iron Hands, Iron Jugulis, Iron Thorns, Iron Bundle, Iron Valiant, Miraidon, 8 Master Balls",
+        "description": "All 6IV, LVL 52-72. Pick shiny or non.<br><br>Includes: Iron Treads, Iron Moth, Iron Hands, Iron Jugulis, Iron Thorns, Iron Bundle, Iron Valiant, Miraidon, 8 master balls",
         "tags": ["ancient", "6IV", "prebuilt", "paradox", "future"],
         "meta": "shiny/non-shiny"
     }
