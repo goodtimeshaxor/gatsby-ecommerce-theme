@@ -4,7 +4,7 @@
         "price": 3,
         "alt": "any custom pokemon",
         "image": "/products/any.png",
-        "description": "Design your own custom Pokémon. One Pokémon custom designed by you.<br><br>The stats you can choose include:<br>, IV Spread, EV Spread, Level, Gender, Shiny / Non-Shiny, Tera Type, Nature, Move Set, Ability, Held Item, Nickname, Trainer ID + Trainer SID (if you know it) OT, + OT Gender",
+        "description": "Design your own custom Pokémon.<br><br>The stats you can choose include:<br>IV Spread, EV Spread, Level, Gender, Shiny / Non-Shiny, Tera Type, Nature, Move Set, Ability, Held Item, Nickname, Trainer ID + Trainer SID (if you know it) OT, + OT Gender",
         "tags": ["custom", "pokemon"]
     },
     {
@@ -12,7 +12,7 @@
         "price": 1,
         "alt": "standard pokemon pokedex",
         "image": "/products/any_pokedex.png",
-        "description": "Description of the item<br>can be multiple lines<br>line<br>line<br>line<br>line<br>No email links on items or images",
+        "description": "Useful for obtaining your Shiny Charm by filling your Pokédex with all 400 Pokémon. These Pokémon do not come with any customizable options.",
         "tags": ["standard", "pokemon", "pokedex"]
     },
     {
@@ -20,7 +20,7 @@
         "price": 2,
         "alt": "japanese ditto",
         "image": "/products/ditto_jp.png",
-        "description": "Description of the item<br>can be multiple lines<br>line<br>line<br>line<br>line<br>No email links on items or images",
+        "description": "Any nature + any held item",
         "tags": ["ditto", "pokemon", "item", "nature"]
     },
     {
@@ -28,7 +28,7 @@
         "price": 3,
         "alt": "custom designed egg",
         "image": "/products/egg.png",
-        "description": "Description of the item<br>can be multiple lines<br>line<br>line<br>line<br>line<br>No email links on items or images",
+        "description": "Design your own custom egg.",
         "tags": ["custom", "egg"]
     },
     {
@@ -36,24 +36,24 @@
         "price": 1,
         "alt": "random egg",
         "image": "/products/egg.png",
-        "description": "Description of the item<br>can be multiple lines<br>line<br>line<br>line<br>line<br>No email links on items or images",
+        "description": "A random egg from previous customer orders. No filler eggs are added to the random pool. Gamblers only!",
         "tags": ["egg", "random"]
     },
     {
-        "name": "All Ancient Paradox + Koraidon 6IV",
+        "name": "Ancient Paradox + Koraidon Bundle",
         "price": 8,
         "alt": "all ancient paradox + koraidon",
         "image": "/products/scarlet_paradox.png",
-        "description": "Description of the item<br>can be multiple lines<br>line<br>line<br>line<br>line<br>No email links on items or images",
+        "description": "<b>All 6IV, LVL 52-72. Pick shiny or non. Includes:<b> Great Tusk, Brute Bonnet, Sandy Shocks, Scream Tail, Flutter Mane, Slither Wing, Roaring Moon, Koraidon, 8 Master Balls",
         "tags": ["ancient", "6IV", "prebuilt", "paradox", "future"],
         "meta": "shiny/non-shiny"
     }, 
     {
-        "name": "All Future Paradox + Miraidon 6IV",
+        "name": "Future Paradox + Miraidon Bundle",
         "price": 8,
         "alt": "all future paradox + miraidon",
         "image": "/products/violet_paradox.png",
-        "description": "Description of the item<br>can be multiple lines<br>line<br>line<br>line<br>line<br>No email links on items or images",
+        "description": "All 6IV, LVL 52-72. Pick shiny or non. Includes:<b> Iron Treads, Iron Moth, Iron Hands, Iron Jugulis, Iron Thorns, Iron Bundle, Iron Valiant, Miraidon, 8 Master Balls",
         "tags": ["ancient", "6IV", "prebuilt", "paradox", "future"],
         "meta": "shiny/non-shiny"
     }
