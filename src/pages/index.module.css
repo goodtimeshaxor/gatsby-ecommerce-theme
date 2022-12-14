@@ -16,6 +16,13 @@
     line-height: 62px;
 }
 
+.productTitle {
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
 .padTop {
     padding-top: 32px;
 }
@@ -41,7 +48,7 @@
     color: var(--standard-gold);
 }
 
-.contentTitle{
+.contentTitle {
     text-align: center;
     font-weight: normal;
     font-size: 42px;

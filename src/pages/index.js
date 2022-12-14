@@ -6,7 +6,7 @@ import { getProductList } from '../helpers/mock';
 
 import * as styles from './index.module.css';
 import { navigate } from 'gatsby';
-import { Card, CardContent, CardHeader, CardMedia, Grid } from '@mui/material';
+import { Card, CardContent, CardHeader, CardMedia, Grid, Typography } from '@mui/material';
 
 const IndexPage = () => {
     const products = getProductList();
@@ -39,14 +39,19 @@ const IndexPage = () => {
                 {products.map(product =>
                     <Grid key={product.name} item xs={9} sm={9} md={5} lg={4} xl={3}>
                         <Card>
-                            <CardHeader title={product.name} subheader={`$${product.price}`} />
                             <CardMedia component="img" image={product.image} alt={product.alt} />
                             <CardContent className={styles.alignLeft}>
-                                {product.description.split("<br>").map((x, i) =>
-                                    <div key={i}>
+                                <Typography component="div" variant="h5" gutterBottom className={styles.productTitle}>{product.name}</Typography>
+
+                                <Typography>${product.price}</Typography>
+
+                                <br/>
+
+                                {product.description?.split("<br>").map((x, i) =>
+                                    <Typography variant="body2" color="text.secondary" key={i}>
                                         {x}
                                         <br />
-                                    </div>
+                                    </Typography>
                                 )}
                             </CardContent>
                         </Card>
