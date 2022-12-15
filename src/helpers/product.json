@@ -11,7 +11,7 @@
         "name": "Any Held Item",
         "price": 1,
         "alt": "any held item",
-        "image": "/products/item.png",
+        "image": "/products/items.png",
         "description": "Pick any tradable held item. Key items not available",
         "tags": ["item"]
     },
