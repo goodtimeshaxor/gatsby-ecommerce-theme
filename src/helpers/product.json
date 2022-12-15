@@ -8,12 +8,12 @@
         "tags": ["custom", "pokemon"]
     },
     {
-        "name": "Any Standard Pokémon",
+        "name": "Any Held Item",
         "price": 1,
-        "alt": "standard pokemon pokedex",
-        "image": "/products/any_pokedex.png",
-        "description": "Useful for obtaining a Shiny Charm. Easily fill your Pokédex with all 400 Pokémom.<br><br>These Pokémon do not come with any customizable options.",
-        "tags": ["standard", "pokemon", "pokedex"]
+        "alt": "any held item",
+        "image": "/products/item.png",
+        "description": "Pick any tradable held item. Key items not available",
+        "tags": ["item"]
     },
     {
         "name": "JP Ditto",
@@ -36,7 +36,7 @@
         "price": 3,
         "alt": "custom designed egg",
         "image": "/products/egg.png",
-        "description": "Design your own custom egg.",
+        "description": "Design your own custom egg. Including: IV spread, gender, shiny/non, tera type, nature, move set, ability, held item, ball, TID, SID, OT, & OT gender",
         "tags": ["custom", "egg"]
     },
     {
@@ -52,7 +52,7 @@
         "price": 8,
         "alt": "all ancient paradox + koraidon",
         "image": "/products/scarlet_paradox.png",
-        "description": "All 6IV, LVL 52-72. Pick shiny or non.<br><br>Includes: Great Tusk, Brute Bonnet, Sandy Shocks, Scream Tail, Flutter Mane, Slither Wing, Roaring Moon, Koraidon, 8 master balls",
+        "description": "All 6IV, LVL 52-72. Pick shiny or non-shiny. Add $8 for customization.<br><br>Includes: Great Tusk, Brute Bonnet, Sandy Shocks, Scream Tail, Flutter Mane, Slither Wing, Roaring Moon, Koraidon, 8 master balls",
         "tags": ["ancient", "6IV", "prebuilt", "paradox", "future"],
         "meta": "shiny/non-shiny"
     }, 
@@ -61,8 +61,24 @@
         "price": 8,
         "alt": "all future paradox + miraidon",
         "image": "/products/violet_paradox.png",
-        "description": "All 6IV, LVL 52-72. Pick shiny or non.<br><br>Includes: Iron Treads, Iron Moth, Iron Hands, Iron Jugulis, Iron Thorns, Iron Bundle, Iron Valiant, Miraidon, 8 master balls",
+        "description": "All 6IV, LVL 52-72. Pick shiny or non-shiny. Add $8 for customization.<br><br>Includes: Iron Treads, Iron Moth, Iron Hands, Iron Jugulis, Iron Thorns, Iron Bundle, Iron Valiant, Miraidon, 8 master balls",
         "tags": ["ancient", "6IV", "prebuilt", "paradox", "future"],
         "meta": "shiny/non-shiny"
+    },
+    {
+        "name": "Any Standard Pokémon",
+        "price": 1,
+        "alt": "standard pokemon pokedex",
+        "image": "/products/any_pokedex.png",
+        "description": "Useful for obtaining a Shiny Charm. Easily fill your Pokédex with all 400 Pokémom.<br><br>These Pokémon do not come with any customizable options.",
+        "tags": ["standard", "pokemon", "pokedex"]
+    },
+    {
+        "name": "All 3 Paldean Starters",
+        "price": 4,
+        "alt": "6IV starter Pokémon",
+        "image": "/products/starters.png",
+        "description": "Includes: LVL 5 6IV Sprigatito, Fuecoco, & Quaxly with 3 master balls<br><br>Choose shiny or non-shiny",
+        "tags": ["standard", "pokemon", "pokedex"]
     }
   ]
