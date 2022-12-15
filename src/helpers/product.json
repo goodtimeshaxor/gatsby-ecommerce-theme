@@ -80,5 +80,13 @@
         "image": "/products/starters.png",
         "description": "Includes: LVL 5 6IV Sprigatito, Fuecoco, & Quaxly with 3 master balls<br><br>Choose shiny or non-shiny",
         "tags": ["standard", "pokemon", "pokedex"]
+    },
+    {
+        "name": "Secret ID Service",
+        "price": 3,
+        "alt": "SID - Secret ID Service",
+        "image": "/products/sidservice.png",
+        "description": "Want to be the original trainer (OT) of all custom Pokémon that you order? This service will provide you with your SID. Simply trade any of your Pokémon and you will receive your SID. Your SID will be saved and used for all your future custom Pokémon orders<br><br>One time fee",
+        "tags": ["standard", "pokemon", "pokedex"]
     }
   ]
