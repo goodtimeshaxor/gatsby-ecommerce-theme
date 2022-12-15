@@ -12,7 +12,7 @@
         "price": 1,
         "alt": "any held item",
         "image": "/products/items.png",
-        "description": "Choose any tradable held item. Key items not available<br><br>$9 for 10<br>$17 for 20",
+        "description": "Choose any tradable held item. Key items not available<br><br>10 items $9<br>20 items for $17",
         "tags": ["item"]
     },
     {
