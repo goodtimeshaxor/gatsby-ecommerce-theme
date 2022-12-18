@@ -23,7 +23,7 @@ const IndexPage = () => {
                     </Grid>
 
                     <Grid item xs={12}>
-                        <p className={styles.alignLeft}>First, make a list of all the products you'd like order. Confirm your selection and order total with a MewGEN admin by contacting one via our social links above.</p>
+                        <p className={styles.alignLeft}>First, make a list of all the products you'd like order. Confirm your selection and order total with a MewGEN admin by contacting one via our social links above or emailing us at [me at mewgen.io].</p>
                         <br />
                         <p className={styles.alignLeft}>We currently accept the following payment methods:</p>
                         <br />
